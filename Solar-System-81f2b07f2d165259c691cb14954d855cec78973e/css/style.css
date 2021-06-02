@@ -1,0 +1,28 @@
+body {
+
+  padding: 0px 0px 0px 0px;
+  margin: 0px;
+  overflow: hidden;
+
+}
+
+.loadbar {
+  color: #ff0000; 
+
+  margin: auto;
+  width:100%;
+  top:50%;
+  text-align: center;
+
+  z-index: 100;
+  position: fixed;
+}
+
+.helptext {
+  color: #ffffff;
+  bottom:1%;
+  left: 1%;
+  z-index:100;
+  position:fixed;
+}
+

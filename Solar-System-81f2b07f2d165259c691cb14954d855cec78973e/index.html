@@ -1,0 +1,34 @@
+<html>
+  <head>
+    <title>ThreeJS Solar System Example</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+  </head>
+
+  <body>
+    <div id="loadbar" class="loadbar"></div>
+
+    <div id="helptext" class="helptext">
+      Move camera: Left Mouse + Drag. Zoom: Mouse wheel / Two finger scroll.
+      Hide GUI: H
+    </div>
+
+    <!-- Libraries -->
+    <script src="js/lib/three.min.js"></script>
+    <script src="js/lib/three-text2d.js"></script>
+    <script src="js/controls/OrbitControls.js"></script>
+    <script src="js/lib/stats.min.js"></script>
+    <script src="js/lib/dat.gui.min.js"></script>
+
+    <!-- Timing engine is global to avoid namespacing issues -->
+    <script>
+      var Clock = new THREE.Clock();
+    </script>
+
+    <!-- Physics -->
+    <script src="js/physics/Kepler.js"></script>
+    <script src="js/physics/PlanetData.js"></script>
+
+    <!-- Main -->
+    <script src="js/scene.js"></script>
+  </body>
+</html>
